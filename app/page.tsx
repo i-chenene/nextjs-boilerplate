@@ -23,6 +23,11 @@ const projects = [
     stack: "pytorch, CNN, OpenCV, python",
     links: [{ label: "github", href: "https://github.com/i-chenene/emotion-recognition" }],
   },
+  {
+    title: "Diabetes Prediction",
+    stack: "scikit-learn, python, jupyter",
+    links: [{ label: "github", href: "https://github.com/i-chenene/diabetes-prediction" }],
+  },
 ];
 
 const skills = [
