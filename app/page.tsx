@@ -25,7 +25,7 @@ const projects = [
   },
   {
     title: "Diabetes Prediction",
-    stack: "scikit-learn, python, jupyter",
+    stack: "python, scikit-learn",
     links: [{ label: "github", href: "https://github.com/i-chenene/diabetes-prediction" }],
   },
 ];
