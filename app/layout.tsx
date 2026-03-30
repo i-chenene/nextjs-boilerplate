@@ -10,6 +10,9 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "iliès chenene",
   description: "iliès chenene — ml & ai portfolio",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
