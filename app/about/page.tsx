@@ -11,7 +11,7 @@ export default function About() {
       </div>
 
       <section className="mt-10 text-sm leading-8">
-        <p style={{ color: "#5b8dd9" }} className="font-bold mb-4">hi, السلام عليكم</p>
+        <p style={{ color: "#5b8dd9" }} className="font-bold mb-4">hi</p>
 
         <p className="mb-6">
           i'm currently an M1 Mathematics and Artificial Intelligence student at Université Paris-Saclay.
