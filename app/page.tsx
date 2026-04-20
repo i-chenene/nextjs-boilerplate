@@ -4,11 +4,11 @@ import Navbar from "@/components/Navbar";
 
 const experience = [
   {
-    role: "incoming AI Research Intern",
+    role: "AI Research Intern",
     company: "Morphism.co",
     companyHref: "https://morphism.co",
     period: "summer 2026",
-    stack: "graph neural networks, PyTorch",
+    stack: "graph neural networks, Transformers, PyTorch",
   },
 ];
 
