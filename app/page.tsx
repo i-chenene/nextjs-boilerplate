@@ -1,7 +1,6 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import ContactActions from "@/components/ContactActions";
 
 const experience = [
   {
@@ -48,13 +47,18 @@ export default function Portfolio() {
       style={{ fontFamily: "var(--font-geist-sans)" }}
     >
       {/* Nav */}
-      <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:gap-6">
-        <span className="text-sm text-[#222]">iliès chenene</span>
+      <div className="mb-8 flex flex-col gap-2 sm:mb-10 sm:flex-row sm:justify-between sm:gap-6">
+        <div>
+          <span className="text-sm text-[#222]">iliès chenene</span>
+          <p className="mt-2 text-sm text-[#666]">
+            currently at{" "}
+            <a href="https://www.safran-group.com" target="_blank" rel="noreferrer"
+              className="underline underline-offset-4 decoration-[#ccc] hover:decoration-[#999] transition-all">
+              Safran
+            </a>
+          </p>
+        </div>
         <Navbar />
-      </div>
-
-      <div className="mt-4 mb-10 sm:mt-6 sm:mb-12">
-        <ContactActions />
       </div>
 
       {/* Education */}

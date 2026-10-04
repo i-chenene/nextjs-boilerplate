@@ -1,7 +1,6 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import ContactActions from "@/components/ContactActions";
 
 export default function About() {
   return (
@@ -21,11 +20,16 @@ export default function About() {
         </p>
 
         <p>
-          feel free to get in touch.
+          i&apos;m looking for an internship starting in April. feel free to get in touch.
         </p>
 
         <div className="mt-6">
-          <ContactActions />
+          <a
+            href="mailto:ilies.chenene@universite-paris-saclay.fr"
+            className="inline-flex min-h-11 items-center justify-center rounded-md bg-[#222] px-4 py-2 font-medium text-white transition-colors hover:bg-[#444] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#5b8dd9]"
+          >
+            contact me
+          </a>
         </div>
 
         <div className="flex gap-5 mt-8 sm:mt-10">
