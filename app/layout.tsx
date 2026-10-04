@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geist.className} min-h-screen pt-12 pb-2 mx-6 flex justify-center sm:mx-12`}>
+      <body className={`${geist.className} min-h-screen bg-white px-5 pt-6 pb-2 text-[#222] flex justify-center sm:px-12 sm:pt-12`}>
         {children}
       </body>
     </html>

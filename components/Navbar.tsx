@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <ul
-      className="flex flex-col items-end gap-1 text-sm"
+      className="flex flex-wrap gap-x-4 gap-y-1 text-sm sm:flex-col sm:items-end sm:gap-1"
       onMouseLeave={() => setHovered(undefined)}
     >
       {links.map((link) => {
@@ -31,7 +31,7 @@ export default function Navbar() {
         return (
           <li
             key={link.label}
-            className={`text-right ${isActive ? "" : "text-[#999]"}`}
+            className={`sm:text-right ${isActive ? "" : "text-[#666]"}`}
             style={{
               color: isActive ? "#5b8dd9" : undefined,
               ...(hovered === link.label ? hoverStyle : {}),
@@ -40,6 +40,7 @@ export default function Navbar() {
           >
             <a
               href={link.href}
+              className="inline-flex min-h-11 items-center sm:min-h-0"
               target={link.external ? "_blank" : undefined}
               rel={link.external ? "noreferrer" : undefined}
             >
